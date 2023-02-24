@@ -6,7 +6,7 @@ import decrypt
 import encrypt
 
 # Initialize bot and dispatcher
-bot = Bot(token="TOKEN")
+bot = Bot(token="6258687980:AAHzJ8_9AVqQkgnWCtL2xldoQpHmpwvFdHM")
 dp = Dispatcher(bot)
 
 USERS = {
