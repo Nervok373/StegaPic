@@ -6,10 +6,10 @@ from aiogram import Bot, Dispatcher, executor, types
 import decrypt
 import encrypt
 
-# BOT_TOKEN = os.getenv("TOKEN")
+BOT_TOKEN = os.getenv("TOKEN")
 
 # Initialize bot and dispatcher
-bot = Bot(token="6258687980:AAHzJ8_9AVqQkgnWCtL2xldoQpHmpwvFdHM")
+bot = Bot(token=BOT_TOKEN)
 dp = Dispatcher(bot)
 
 USERS = {}
